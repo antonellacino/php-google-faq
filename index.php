@@ -37,19 +37,7 @@
         foreach($faq as $faq){
         $testo.="<h2><br>".$faq["domanda"]."</h2><br><p>".$faq["risposta"]."</p>";
         $domande++;
-        }
-
-    
-        foreach($class as $value){
-            if($name===$value["name"]){
-            echo "Nome: ". $value["name"]."<br>";
-            echo "Cognome: ". $value["lastname"]."<br>";
-        }
-
-
-
-
-
+        };
     ?>
     
     <h2>Trovate <?php echo $domande ?> domande </h2> 
